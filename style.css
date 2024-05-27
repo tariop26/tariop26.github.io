@@ -47,13 +47,18 @@ h1 {
 }
 
 h2 {
+    color: #cc0000;
     border-bottom: 2px solid #cc0000;
     padding-bottom: 5px;
+    margin-top: 20px;
 }
 
 h3 {
-    margin-top: 10px;
-    color: #cc0000;
+    margin-top: 20px;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 ul {
@@ -111,7 +116,7 @@ a {
 .company-logo {
     padding-top: 10px;
     height: 30px;
-    margin-right: 10px;
+    margin-left: 10px;
     opacity: 0.7;
 }
 .experience {
