@@ -39,7 +39,6 @@ body {
 h1 {
     font-size: 24px;
     margin-bottom: 10px;
-    color: #cc0000;
 }
 
 .personal-info, .personal-info a {
@@ -48,15 +47,13 @@ h1 {
 }
 
 h2 {
-    color: #cc0000;
     border-bottom: 2px solid #cc0000;
     padding-bottom: 5px;
-    margin-top: 20px;
 }
 
 h3 {
-    margin-top: 20px;
-    color: #333;
+    margin-top: 10px;
+    color: #cc0000;
 }
 
 ul {
@@ -66,13 +63,6 @@ ul {
 
 ul li {
     margin-bottom: 10px;
-}
-
-.skills li {
-    background-color: #cc0000;
-    color: white;
-    padding: 5px;
-    border-radius: 5px;
 }
 
 p {
@@ -85,12 +75,6 @@ a {
 
 .right-column p {
     margin-bottom: 20px;
-}
-
-.right-column h3 {
-    margin-bottom: 5px;
-    font-weight: bold;
-    color: #cc0000;
 }
 .tabbed-list {
     padding-left: 20px; /* Ajustez la valeur pour obtenir la tabulation souhaitée */
