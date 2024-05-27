@@ -57,7 +57,7 @@ h3 {
 }
 
 ul {
-    list-style-type: disc;
+    list-style-type: square;
     padding: 0;
 }
 
@@ -77,24 +77,40 @@ a {
     margin-bottom: 20px;
 }
 .tabbed-list {
-    padding-left: 20px; /* Ajustez la valeur pour obtenir la tabulation souhaitée */
+    padding-left: 40px; /* Ajustez la valeur pour obtenir la tabulation souhaitée */
 }
 
 .tabbed-list li {
     margin-bottom: 5px; /* Espace entre les éléments de la liste */
 }
 .skills .skill {
+    display: flex;
+    align-items: center;
     margin-bottom: 15px;
 }
 
-.skill-bar {
+.skill span {
+    width: 150px;
+    text-align: left;
+}
+
+.skill-gauge {
     background-color: #ddd;
     border-radius: 5px;
     overflow: hidden;
+    flex-grow: 1;
+    margin-left: 10px;
+    height: 10px;
 }
 
-.skill-level {
+.skill-gauge .level {
     height: 10px;
-    background-color: #cc0000;
     border-radius: 5px 0 0 5px;
+}
+
+.company-logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    opacity: 0.7;
 }
