@@ -83,3 +83,18 @@ a {
 .tabbed-list li {
     margin-bottom: 5px; /* Espace entre les éléments de la liste */
 }
+.skills .skill {
+    margin-bottom: 15px;
+}
+
+.skill-bar {
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-level {
+    height: 10px;
+    background-color: #cc0000;
+    border-radius: 5px 0 0 5px;
+}
