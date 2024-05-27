@@ -92,3 +92,10 @@ a {
     font-weight: bold;
     color: #cc0000;
 }
+.tabbed-list {
+    padding-left: 20px; /* Ajustez la valeur pour obtenir la tabulation souhaitée */
+}
+
+.tabbed-list li {
+    margin-bottom: 5px; /* Espace entre les éléments de la liste */
+}
