@@ -82,7 +82,7 @@ a {
     margin-bottom: 20px;
 }
 .tabbed-list {
-    padding-left: 40px; /* Ajustez la valeur pour obtenir la tabulation souhaitée */
+    padding-left: 60px; /* Ajustez la valeur pour obtenir la tabulation souhaitée */
 }
 
 .tabbed-list li {
